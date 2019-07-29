@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity -->
+    <string name="app_name">Задание1</string>
+    <string name="info_text">Хозяин, какие распоряжения?</string>
+    <string name="chosen_text">Я покажу, что вы хотите, когда получу!</string>
+    <string name="choose_btn_name">Выбрать</string>
+    <string name="share_btn_name">Поделиться</string>
+    <string name="share_text_with">Поделиться этим текстом с</string>
+
+    <!-- Second activity -->
+    <string name="question_text">Какой Фрукт тебе нравится больше всего?</string>
+    <string name="button_banana_text">банан</string>
+    <string name="button_apple_text">яблоко</string>
+    <string name="button_pear_text">груша</string>
+    <string name="button_orange_text">апельсин</string>
+    <string name="button_pineapple_text">ананас</string>
+
+</resources>

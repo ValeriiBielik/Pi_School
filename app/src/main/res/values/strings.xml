@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Main activity -->
+    <string name="app_name">Task1</string>
+    <string name="info_text">What is the bidding, my master?</string>
+    <string name="chosen_text">I will show you want when i get it!</string>
+    <string name="choose_btn_name">Choose</string>
+    <string name="share_btn_name">Share</string>
+    <string name="share_text_with">Share text with</string>
+
+    <!-- Second activity -->
+    <string name="question_text">What fruit do you like more?</string>
+    <string name="button_banana_text">banana</string>
+    <string name="button_apple_text">apple</string>
+    <string name="button_pear_text">pear</string>
+    <string name="button_orange_text">orange</string>
+    <string name="button_pineapple_text">pineapple</string>
+</resources>
