@@ -26,23 +26,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
         Intent intent = new Intent();
-        switch (v.getId()) {
-            case R.id.button_banana :
-                intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
-                break;
-            case R.id.button_apple :
-                intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
-                break;
-            case R.id.button_pear :
-                intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
-                break;
-            case R.id.button_orange :
-                intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
-                break;
-            case R.id.button_pineapple :
-                intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
-                break;
-        }
+        intent.putExtra(EXTRA_REPLY, ((Button) v).getText().toString());
         setResult(RESULT_OK, intent);
         finish();
     }
